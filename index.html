@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <title>NHS Hour Tracker</title>
+  <script type="module" crossorigin src="/assets/index-34d84a99.js"></script>
+  <link rel="stylesheet" href="/assets/index-9460e2da.css">
+</head>
+
+<body>
+  <div id="app">
+
+    <h1 id="nhsTitle" class="titles">National Honor Society</h1>
+    <h1 id="hoursTrackerTitle" class="titles">Hours Tracker</h1>
+
+    <div id="inputTable">
+      <input id="desInput" class="inputTop" type="text" minlength="1" maxlength="40" placeholder="Description">
+
+
+      <input id="hoursInput" class="inputTop" type="number" placeholder="Hours">
+      <div id="signedFR">
+        <input id="signedInput" class="inputTop" type="checkbox" name="signedInput">
+        <label for="signedInput" id="checkboxName"> Signed?</label>
+      </div>
+      <button id="submitInput" class="inputTop">Submit</button>
+
+
+
+    </div>
+    <div class="wholeTable">
+      <table id="table">
+      </table>
+    </div>
+
+  </div>
+
+
+
+  <p id="totals"><span id="hourTotals"><span id="totalHours"></span>/30 Hours</span> <span id="signedTotals"><span
+        id="signedNow"></span>/<span id="entriesNow"></span> Signed</span>
+
+  </p>
+  <img id="doneImg"
+    src="https://media1.giphy.com/media/39C6BWtPo0fNctqZrp/200w.webp?cid=ecf05e47gj1ipgrxggvqzdrwpqt4eymjmd7l3ivc1ru5kcbi&ep=v1_gifs_search&rid=200w.webp&ct=g">
+
+
+  
+  
+</body>
+
+</html>
